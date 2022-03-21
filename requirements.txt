@@ -1,2 +1,5 @@
 Flask==1.1.2
 sendgrid==6.9.7
+gunicorn==20.1.0
+altgraph==0.17
+jinja2==3.0.1
