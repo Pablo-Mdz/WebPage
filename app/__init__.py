@@ -1,4 +1,4 @@
-from aem import app
+#from aem import app
 from flask import Flask
 import os
 
