@@ -10,9 +10,6 @@ from sendgrid.helpers.mail import *
 bp = Blueprint('portfolio', __name__, url_prefix='/')
 
 
-server = app.server
-
-
 @bp.route('/', methods=['GET'])
 def index():
     return render_template('portfolio/index.html')
