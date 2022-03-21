@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+{% block title %}
+
+My Curriculum Vitae
+
+{% endblock %}
+
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="left">
+            <h1>I'm a Junior Developer</h1>
+            <h1>Pablo Cigoy</h1>
+            <p>Build dynamic Python apps using relational Databases </p>
+            <a href='#contact' class="btn">Contactme</a>
+        </div>    
+        <div class="right">
+            <img src="{{ url_for('static', filename='map-coffe.jpg') }}" width="600"/>
+        </div>
+    </div>
+</div>
+{% include 'portfolio/section-first.html' %}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section-third.html' %}
+{% endblock %}
+
