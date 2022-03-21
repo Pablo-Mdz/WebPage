@@ -1,4 +1,5 @@
 from crypt import methods
+from aem import app
 from flask import (
     Blueprint, render_template, request, redirect, url_for, current_app
 )
@@ -7,6 +8,9 @@ from sendgrid.helpers.mail import *
 
 
 bp = Blueprint('portfolio', __name__, url_prefix='/')
+
+
+server = app.server
 
 
 @bp.route('/', methods=['GET'])
