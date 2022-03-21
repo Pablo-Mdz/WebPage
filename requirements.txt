@@ -15,7 +15,7 @@ hjson==3.0.2
 Django==4.0.3
 heroku==0.1.4
 pathlib==1.0.1
-ensorboard==2.8.0
+tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.8.0
