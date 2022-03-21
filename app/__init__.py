@@ -1,7 +1,6 @@
 from aem import app
 from flask import Flask
 import os
-application = app
 
 
 def create_app():
