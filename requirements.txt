@@ -12,4 +12,3 @@ pyinstaller-hooks-contrib==2022.2
 pyinstaller==4.4
 appdirs==1.4.4
 hjson==3.0.2
-yarn==1.22.18
