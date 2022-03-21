@@ -6,7 +6,6 @@ import sendgrid
 from sendgrid.helpers.mail import *
 
 
-
 bp = Blueprint('portfolio', __name__, url_prefix='/')
 
 
