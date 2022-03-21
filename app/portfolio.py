@@ -1,5 +1,5 @@
 from crypt import methods
-from aem import app
+#from aem import app
 from flask import (
     Blueprint, render_template, request, redirect, url_for, current_app
 )
