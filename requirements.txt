@@ -12,9 +12,6 @@ pyinstaller-hooks-contrib==2022.2
 pyinstaller==4.10
 appdirs==1.4.4
 hjson==3.0.2
-conda==4.10.3
-conda-build==3.21.5
-conda-verify==3.4.2
 Django==4.0.3
 heroku==0.1.4
 pathlib==1.0.1
