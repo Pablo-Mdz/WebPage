@@ -1,0 +1,2 @@
+Blue = #325f9a
+Brown = #9A6D32

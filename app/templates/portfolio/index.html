@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 {% block title %}
 
-My Curriculum Vitae
+Pablo Cigoy
 
 {% endblock %}
 
@@ -12,17 +12,17 @@ My Curriculum Vitae
     <div class="hero-content">
         <div class="left">
             <h1>I'm a Junior Developer</h1>
-            <h1>Pablo Cigoy</h1>
-            <p>Build dynamic Python apps using relational Databases </p>
+            <p>Build dynamic Python apps, Flask, HTML and CSS </p>
             <a href='#contact' class="btn">Contact</a>
         </div>    
         <div class="right">
-            <img src="{{ url_for('static', filename='Map-coffe.jpg') }}" width="600"/>
+            <img src="{{ url_for('static', filename='Map-coffe.jpg') }}" width="750"/>
         </div>
     </div>
 </div>
 {% include 'portfolio/section-first.html' %}
 {% include 'portfolio/section-second.html' %}
+{% include 'portfolio/aboutme-section.html' %}
+{% include 'portfolio/photos-section.html' %}
 {% include 'portfolio/section-third.html' %}
 {% endblock %}
-
