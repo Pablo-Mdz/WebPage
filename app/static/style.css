@@ -83,11 +83,9 @@ html body nav ul li a {
   width: 600px;
   align-self: center;
 }
-
 .right {
   width: 600px;
-  padding: 5px 10px;
-  display: ruby;
+  align-self: center;
 }
 .btn {
   background-color: #9a6d32;
