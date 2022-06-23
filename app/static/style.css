@@ -112,7 +112,9 @@ a.btn {
 .PhotoSectionContent {
   text-align: center;
 }
-
+.photo {
+  width: 100%;
+}
 .row {
   display: flex;
   flex-direction: row;
