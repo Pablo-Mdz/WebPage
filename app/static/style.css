@@ -100,12 +100,17 @@ a.btn {
 }
 
 .center {
-  display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .content {
   width: 1200;
+}
+
+.PhotoSectionContent {
+  text-align: center;
 }
 
 .row {
@@ -130,6 +135,8 @@ a.btn {
   border: solid 1px #ddd;
   border-radius: 5px;
   padding: 20px 30px;
+  display: inline-grid;
+  height: 230px;
 }
 
 .third {
