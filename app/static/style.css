@@ -119,6 +119,11 @@ a.btn {
   display: flex;
   flex-direction: row;
 }
+
+.rowTitle {
+  flex-direction: row;
+}
+
 .brawn {
   color: #9a6d32;
 }
