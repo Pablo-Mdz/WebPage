@@ -132,6 +132,10 @@ a.btn {
   padding: 20px 30px;
 }
 
+.padded2 {
+  padding: 10px 10px;
+}
+
 .vert-pad {
   padding: 20px 0;
 }
